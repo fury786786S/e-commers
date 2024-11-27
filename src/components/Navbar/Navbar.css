@@ -70,3 +70,11 @@
     background: red;
     color: white;
 }
+@media(max-width:1280px){
+    .navbar {
+        padding: 12px 50px;
+    }
+    .nav-log img {
+        width: 40px;
+    }
+}
