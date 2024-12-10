@@ -31,8 +31,8 @@ const ProductDisplay = (props) => {
                 <p>(122)</p>
             </div>
             <div className="display-right-prices">
-                <div className="display-right-price-old">${product.old_price}</div>
-                <div className="display-right-price-new">${product.new_price}</div>
+                <div className="display-right-price-old">&#8377;{product.old_price}</div>
+                <div className="display-right-price-new">&#8377;{product.new_price}</div>
             </div>
             <div className="display-right-description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reiciendis sit, officia doloribus enim maiores quae facere fuga laboriosam perspiciatis doloremque tempore hic totam eum nam? Autem nemo voluptatum provident.

@@ -70,11 +70,38 @@
     background: red;
     color: white;
 }
-@media(max-width:1280px){
+/* @media(max-width:1280px){
     .navbar {
         padding: 12px 50px;
     }
     .nav-log img {
         width: 40px;
     }
-}
+} */
+@media (min-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+  
+    .nav-logo {
+      margin-bottom: 0;
+    }
+  
+    .nav-menu {
+      display: flex; /* Visible on larger screens */
+      flex-direction: row;
+      gap: 20px;
+    }
+  
+    .hamburger {
+      display: none; /* Hide hamburger menu */
+    }
+  
+    .nav-login-cart {
+      margin-top: 0;
+      width: auto;
+    }
+  }

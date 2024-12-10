@@ -56,4 +56,37 @@
     max-width: 350px; 
     height: auto;  
 }
-
+@media (max-width: 768px) {
+    .hero {
+      flex-direction: column; /* Stack left and right sections */
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .hero-left {
+      padding-left: 0; /* Remove extra padding on smaller screens */
+    }
+  
+    .hero-left h2 {
+      font-size: 18px;
+    }
+  
+    .hero-left p {
+      font-size: 50px; /* Reduce font size for better fit */
+    }
+  
+    .hero-hand-icon img {
+      width: 70px; /* Scale down hand icon */
+    }
+  
+    .hero-latest-btn {
+      width: 200px;
+      height: 50px; /* Adjust button size */
+      font-size: 16px;
+    }
+  
+    .hero-right img {
+      max-width: 250px; /* Scale down the image */
+    }
+  }
+  
