@@ -207,7 +207,7 @@ const CartItem = () => {
                     {promoMessage && (
                         <p
                             style={{
-                                color: promoMessage.includes('successfully') ? 'green' : 'red',
+                                color: promoMessage.includes('applied') ? 'green' : 'red', // Green for success, red for error
                                 marginTop: '100px',
                             }}
                         >
